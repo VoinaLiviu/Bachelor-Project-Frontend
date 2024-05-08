@@ -1,0 +1,32 @@
+.homePageContainer {
+    display: flex;
+    height: 85vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.homePageGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.homePageElement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 450px;
+    border-radius: 20px;
+    border: 5px solid #eee;
+    background-color: rgb(71, 137, 71);
+    font-size: 50px;
+    text-decoration: none;
+    color: #eee;
+}
+
+.homePageElement:hover {
+    background-color: transparent;
+}

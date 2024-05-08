@@ -1,0 +1,47 @@
+.learnContainer {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdownContainer {
+    width: 65%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+
+.dropdown {
+    width: 150px;
+    height: 30px;
+    font-size: large;
+    display: flex;
+    text-align: center;
+}
+
+.infoSection {
+    width: 70vw;
+    height: 60vh;
+    background-color: rgb(71, 137, 71);
+    border: 10px solid #eee;
+    border-radius: 10px;
+    font-size: large;
+    color: #eee;
+    overflow-y: scroll;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: xx-large;
+    font-weight: 700;
+}
+
+.info {
+    padding: 10px;
+}

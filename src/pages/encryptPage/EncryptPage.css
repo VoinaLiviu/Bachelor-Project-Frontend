@@ -1,0 +1,67 @@
+html {
+    min-height: 100vh;
+}
+
+.encryptWrapper {
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.encryptContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 700px;
+    background-color: rgb(71, 137, 71);
+    border: 5px solid #eee;
+    border-radius: 10px;
+}
+
+.algorithms {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    gap: 250px;
+}
+
+.algorithm1,
+.algorithm2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown1,
+.dropdown2 {
+    width: 120px;
+    text-align: center;
+}
+
+.chooseTwo {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.check {
+    height: 20px;
+    margin: 0;
+}
+
+.inputFields {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.submitContainer {
+    margin-bottom: 20px;
+}

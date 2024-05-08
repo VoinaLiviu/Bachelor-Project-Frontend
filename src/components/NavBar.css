@@ -1,0 +1,47 @@
+.navbar {
+    top: 0;
+    margin: 0;
+    width: calc(100vw - 40px);
+    height: 15vh;
+    background-color: rgb(71, 137, 71);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbarRight {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    gap: 20px
+}
+
+.userStats {
+    display: flex;
+    gap: 20px;
+    font-size: large;
+}
+
+.username {
+    display: flex;
+    gap: 5px;
+
+}
+
+.points {
+    display: flex;
+    gap: 5px;
+}
+
+.navbarTitle,
+:link {
+    color: #eee;
+    text-decoration: none !important;
+    font-size: xx-large;
+}
+
+p {
+    color: #eee;
+}

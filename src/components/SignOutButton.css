@@ -1,0 +1,13 @@
+.signoutBtn {
+    margin: 0;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.signoutBtn:hover {
+    background-color: #999;
+}
+
+.signoutBtn:active {
+    background-color: #888;
+}
